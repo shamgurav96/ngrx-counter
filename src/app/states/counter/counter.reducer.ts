@@ -10,9 +10,9 @@ export const initialState: CounterState = {
 }
 
 export const counterReducer = createReducer(
-    initialState,
-    on(increment , state=> ({ ...state, count: state.count + 1 })),
-    on(decrement , state=> ({ ...state, count: state.count - 1 })),
-    on(reset , state=> ({ ...state, count: 0 })),
-    on(incrementByAmount , (state, { amount })=> ({ ...state, count: state.count + amount })),
-)
+  initialState,
+  on(increment, (state) => ({ ...state, count: state.count + 1 })),
+  on(decrement, (state) => ({ ...state, count: state.count - 1 })),
+  on(reset, (state) => ({ ...state, count: 0 })),
+  on(incrementByAmount, (state, { amount }) => ({ ...state, count: state.count + amount })),
+);
