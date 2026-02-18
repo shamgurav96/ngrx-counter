@@ -14,6 +14,9 @@ This app implements a counter with increment, decrement, and reset functionality
 
 ---
 
+Preview - https://stackblitz.com/github/shamgurav96/ngrx-counter
+
+---
 ## 📦 Installation
 
 Clone the repository and install dependencies:
